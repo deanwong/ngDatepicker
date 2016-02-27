@@ -1,0 +1,27 @@
+<div class="jumbotron">
+  <h1>'Allo, 'Allo!</h1>
+  <p class="lead">
+    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
+    Always a pleasure scaffolding your apps.
+  </p>
+  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+</div>
+
+<div class="row marketing">
+
+<datepicker start-date="J_CheckIn_List" ng-start-model="main.arrivalDate" end-date="J_CheckOut_List"
+               ng-end-model="main.departureDate">
+  <div class="search_item">
+    <label>FROM</label>
+    <input type="text" id="J_CheckIn_List" placeholder="yyyy-mm-dd"/>
+  </div>
+  <div class="search_item">
+    <label>TO  </label>
+    <input type="text" id="J_CheckOut_List" placeholder="yyyy-mm-dd"/>
+  </div>
+</datepicker>
+
+<p>From : {{main.arrivalDate}}</p>
+<p>To: {{main.departureDate}}</p>
+
+</div>
