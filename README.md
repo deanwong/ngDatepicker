@@ -6,6 +6,10 @@ Just wapper it as a angular directive
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.15.1.
 
+Snapshot:
+
+![Snapshot1](https://raw.githubusercontent.com/deanwong/ngDatepicker/master/snapshot1.png)
+
 ## Build & development
 
 Run `grunt` for building and `grunt serve` for preview.
